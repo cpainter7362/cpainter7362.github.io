@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Personal Website</title>
+    <title>Cara Decker - Personal Website</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -29,12 +29,16 @@
         }
         h1 {
             color: #2c3e50;
+            font-size: 2.5em;
         }
         .content {
             background-color: #fff;
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .profile-info {
+            margin-bottom: 20px;
         }
         .links {
             margin-top: 20px;
@@ -44,9 +48,14 @@
             margin-bottom: 10px;
             color: #3498db;
             text-decoration: none;
+            font-weight: bold;
         }
         .links a:hover {
             text-decoration: underline;
+        }
+        .link-description {
+            margin-top: 5px;
+            margin-bottom: 15px;
         }
         footer {
             text-align: center;
@@ -56,40 +65,75 @@
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
+        .skills {
+            margin: 20px 0;
+        }
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skills li {
+            background-color: #e9f7fe;
+            margin: 5px;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 0.9em;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Your Name</h1>
-            <p>Web Developer | Student | Innovator</p>
+            <h1>Cara Decker</h1>
+            <p>Data Analyst | HR Professional | Full Stack Developer</p>
         </header>
 
         <div class="content">
-            <h2>About Me</h2>
-            <p>
-                Hello! I'm a passionate web developer and student interested in creating 
-                responsive, user-friendly websites and applications. I enjoy learning new 
-                technologies and applying them to solve real-world problems.
-            </p>
+            <div class="profile-info">
+                <h2>About Me</h2>
+                <p>
+                    I'm a data analyst with experience in human resources management and a growing passion 
+                    for information technology and full stack development. I combine analytical thinking with 
+                    technical skills to drive process improvements and deliver data-driven insights.
+                </p>
+                <p>
+                    Currently pursuing an Associate's degree in Information Technology with a specialization in 
+                    Full Stack Development while working as an Employee Administration Data Analyst at Virginia Tech.
+                </p>
+            </div>
+            
+            <div class="skills">
+                <h2>Key Skills</h2>
+                <ul>
+                    <li>Data Analytics</li>
+                    <li>Python</li>
+                    <li>Client-Side Scripting</li>
+                    <li>Project Management</li>
+                    <li>HR Management</li>
+                    <li>Process Improvement</li>
+                </ul>
+            </div>
             
             <div class="links">
                 <h2>Links</h2>
-                <a href="LastName-FirstInitial-Resume-April-2025.pdf">📄 My Resume (PDF)</a>
-                <p>A one-page overview of my skills, education, and work experience.</p>
+                <a href="Decker-C-Resume-April-2025.pdf">📄 My Resume (PDF)</a>
+                <p class="link-description">A detailed overview of my professional experience, skills, and education.</p>
                 
                 <a href="https://cpainter7362.github.io/final-project">🚀 My Final Project</a>
-                <p>Check out my final project for this course.</p>
+                <p class="link-description">Check out my final project for this course.</p>
+                
+                <a href="https://www.linkedin.com/in/cara-epperly">💼 LinkedIn Profile</a>
+                <p class="link-description">Connect with me professionally on LinkedIn.</p>
                 
                 <a href="https://github.com/cpainter7362">💻 GitHub Profile</a>
-                <p>See my code repositories and contributions.</p>
-                
-                <!-- Add more links as needed -->
+                <p class="link-description">View my code repositories and programming projects.</p>
             </div>
         </div>
 
         <footer>
-            <p>&copy; 2025 Your Name</p>
+            <p>&copy; 2025 Cara Decker | Fairlawn, VA</p>
         </footer>
     </div>
 </body>
